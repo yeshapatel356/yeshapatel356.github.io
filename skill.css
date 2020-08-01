@@ -54,7 +54,6 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-
 #progress-java {
     -webkit-animation-name: progress-java;
     animation-name: progress-java;
@@ -69,12 +68,6 @@
     animation-delay: 0.7s;
 }
 
-#progress-c {
-    -webkit-animation-name: progress-c;
-    animation-name: progress-c;
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-}
 
 #progress-cplusplus {
     -webkit-animation-name: progress-cplusplus;
@@ -90,7 +83,8 @@
     animation-delay: .7s;
 }
 
-#progress-js {
+#progress-js
+{
     -webkit-animation-name: progress-js;
     animation-name: progress-js;
     -webkit-animation-delay: 0.7s;
@@ -103,13 +97,6 @@
     -webkit-animation-delay: 0.7s;
     animation-delay: 0.7s;
 }
-
-
-
-
-
-
-
 .progressblue {
     background-color: #118C8B;
 }
@@ -119,7 +106,7 @@
         width: 0%;
     }
     100% {
-        width: 65%;
+        width: 35%;
     }
 }
 
@@ -137,7 +124,7 @@
         width: 0%;
     }
     100% {
-        width: 30%;
+        width: 20%;
     }
 }
 
@@ -146,7 +133,7 @@
         width: 0%;
     }
     100% {
-        width: 20%;
+        width: 50%;
     }
 }
 
@@ -159,14 +146,6 @@
     }
 }
 
-@-webkit-keyframes progress-c {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 65%;
-    }
-}
 
 
 @-webkit-keyframes progress-sql {
@@ -183,7 +162,7 @@
         width: 0%;
     }
     100% {
-        width: 65%;
+        width: 35%;
     }
 }
 
@@ -201,7 +180,7 @@
         width: 0%;
     }
     100% {
-        width: 30%;
+        width: 20%;
     }
 }
 
@@ -210,7 +189,7 @@
         width: 0%;
     }
     100% {
-        width: 20%;
+        width: 50%;
     }
 }
 
@@ -223,14 +202,6 @@
     }
 }
 
-@-moz-keyframes progress-c {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 65%;
-    }
-}
 
 @-moz-keyframes progress-sql {
     0% {
@@ -245,7 +216,7 @@
         width: 0%;
     }
     100% {
-        width: 65%;
+        width: 35%;
     }
 }
 
@@ -263,7 +234,7 @@
         width: 0%;
     }
     100% {
-        width: 30%;
+        width: 20%;
     }
 }
 
@@ -272,7 +243,7 @@
         width: 0%;
     }
     100% {
-        width: 20%;
+        width: 50%;
     }
 }
 
@@ -285,14 +256,7 @@
     }
 }
 
-@keyframes progress-c {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 65%;
-    }
-}
+
 
 @keyframes progress-sql {
     0% {
