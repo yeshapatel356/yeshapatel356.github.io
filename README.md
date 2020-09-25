@@ -3,4 +3,4 @@
 HELLO WORLD!
 Wellcome to my portfolio.
 
-[Yesha Patel](https://yeshapatel356.github.io/)
+https://yeshapatel356.github.io/
